@@ -1,4 +1,5 @@
 import React from 'react';
+import PrimaryButton from '../../../components/PrimaryButton/PrimaryButton';
 
 const Banner = () => {
     return (
@@ -8,7 +9,7 @@ const Banner = () => {
                 <div>
                     <h1 className="text-5xl font-bold">We care about your teeth</h1>
                     <p className="py-6">Dental care is very essential and fundamental to all around health of an individual.Let us take care.</p>
-                    <button className="btn text-white bg-gradient-to-r from-sky-500 to-indigo-500">Get Started</button>
+                    <PrimaryButton>Get Started</PrimaryButton>
                 </div>
             </div>
         </div>
